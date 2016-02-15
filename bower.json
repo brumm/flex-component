@@ -1,0 +1,29 @@
+{
+  "name": "react-flex-component",
+  "version": "0.0.0",
+  "description": "react-flex-component",
+  "main": "dist/react-flex-component.min.js",
+  "homepage": "https://github.com/brumm/react-flex-component",
+  "authors": [
+    "Philipp Brumm"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
