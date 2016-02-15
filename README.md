@@ -1,17 +1,16 @@
 # flex-component
 
-For me, flex-properties are not really styling and feel weird to clutter up my css files...  
-...So I made them a component instead.
-
-CSS properties that are prefixed with `flex-` are used without the prefix.  
-`<Flex grow={1}>` instead of `<Flex grow={1}>`
-
 ```
 npm install flex-component --save
 ```
 
+For me, flex-properties are not really styling and they feel weird cluttering up my css files...  
+...So I made a `<Flex>` component instead.
 
 ## Usage
+
+CSS properties that are prefixed with `flex-` are used without the prefix.  
+`<Flex grow={1}>` instead of `<Flex flexGrow={1}>`
 
 ```
 <Flex direction='column' grow={1}>
